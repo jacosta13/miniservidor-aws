@@ -26,3 +26,6 @@ http://0.0.0.0:8000?a=2&b=3
 ``` 
 
 To send post request you can use postman or do the request from python. 
+
+For viewing documentation of the mini_server you can visit: 
+hostlocal:0.0.0.0:8000/docs
