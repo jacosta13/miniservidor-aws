@@ -10,17 +10,19 @@ In the file requirements there are three important libraries:
 - uvicorn: to setup a running server.
 - boto3: exclusive for aws.
 
-For installing the libraries run the following command on the terminal 
+For installing the libraries run the following command on the terminal:
 ```shell script
 pip install -r requirements.txt
 ```
 
-For initializing the fastapi's app run the following command on the terminal
+For initializing the fastapi's app run the following command on the terminal:
 ```shell script
 uvicorn main:app --host 0.0.0.0
 ```
 
-To send parameters in get request, modify the url on the browser
+To send parameters in get request, modify the url on the browser:
 ```shell script
 http://0.0.0.0:8000?a=2&b=3
 ``` 
+
+To send post request you can use postman or do the request from python. 
